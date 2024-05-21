@@ -1,0 +1,9 @@
+/Users/majestic/Documents/GitHub/1proj/NewRes1/CMakeFiles/Experimental.dir
+/Users/majestic/Documents/GitHub/1proj/NewRes1/CMakeFiles/Nightly.dir
+/Users/majestic/Documents/GitHub/1proj/NewRes1/CMakeFiles/Continuous.dir
+/Users/majestic/Documents/GitHub/1proj/NewRes1/CMakeFiles/NightlyMemoryCheck.dir
+/Users/majestic/Documents/GitHub/1proj/NewRes1/CMakeFiles/proj1.dir
+/Users/majestic/Documents/GitHub/1proj/NewRes1/CMakeFiles/package.dir
+/Users/majestic/Documents/GitHub/1proj/NewRes1/CMakeFiles/RUN_TESTS.dir
+/Users/majestic/Documents/GitHub/1proj/NewRes1/CMakeFiles/ALL_BUILD.dir
+/Users/majestic/Documents/GitHub/1proj/NewRes1/CMakeFiles/ZERO_CHECK.dir

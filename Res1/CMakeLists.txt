@@ -1,7 +1,14 @@
-cmake_minimum_required(VERSION 3.15) # Проверка версии CMake.
-# Название проекта
-project(MyProject)
-# Установка стандарта C++
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
-add_executable(MyExecutable main.cpp)
+cmake_minimum_required(VERSION 3.10)
+project(proj1 VERSION 0.1.0 LANGUAGES C CXX)
+
+# Включение поддержки тестирования
+include(CTest)
+enable_testing()
+
+# Добавление исполняемого файла
+add_executable(proj1 main.cpp)
+
+# Настройка переменных CPACK
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+include(CPack)
