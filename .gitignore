@@ -1,12 +1,26 @@
+# Исключить все файлы и папки
 *
-!/*
-!/Res2/*
-!/Res2/labsic/*
-!/Res2/labsic/CMakeLists.txt
-!/Res2/labsic/main.cpp
+# Разрешить только
+!Res1
+!.gitignore
+# Исключить файлы и папки внутри любых директорий, кроме перечисленных выше
+
+!*/CMakeLists.txt
+!*/main.cpp
+# Исключить все файлы формата jpg
+*.jpg
 
 
 .gitignore
-!/*
-!/Res1/main.cpp
-!/Res1/CMakeLists.txt
+# Разрешить только
+!Res2
+!Res2/labsic
+# Исключить файлы и папки внутри любых директорий, кроме перечисленных 
+!*/labsic/CMakeLists.txt
+!*/labsic/main.cpp
+
+# Исключить все файлы формата jpg
+*.jpg
+
+
+
