@@ -15,10 +15,9 @@
 # Разрешить только
 !Res2
 !Res2/labsic
-!Res2/labsic/Res2
 # Исключить файлы и папки внутри любых директорий, кроме перечисленных 
-!*/labsic/Res2/CMakeLists.txt
-!*/labsic/Res2/main.cpp
+!*/labsic/CMakeLists.txt
+!*/labsic/main.cpp
 
 # Исключить все файлы формата jpg
 *.jpg
