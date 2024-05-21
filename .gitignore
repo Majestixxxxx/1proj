@@ -17,7 +17,7 @@
 !Res2/labsic
 # Исключить файлы и папки внутри любых директорий, кроме перечисленных 
 !*/labsic/CMakeLists.txt
-!*/labsic/main.cpp
+!*/labsic/mainic.cpp
 
 # Исключить все файлы формата jpg
 *.jpg
